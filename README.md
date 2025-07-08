@@ -37,8 +37,9 @@ This project provisions a secure, scalable, and easily repeatable AWS infrastruc
 ### The private SSH key will be saved as
   ```bash
    ./start-up-aws-key-pair.pem
+---
 
-### Connect to your instance using:
+**Connect to your instance using**
 ssh -i ./start-up-aws-key-pair.pem ec2-user@<PUBLIC_IP>
 
 
